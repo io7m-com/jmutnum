@@ -17,6 +17,7 @@
     </subsection>
     <subsection name="Features">
       <ul>
+        <li>Mutable boxed integer types.</li>
         <li><a href="https://www.osgi.org/">OSGi</a>-ready.</li>
         <li>ISC license.</li>
       </ul>
