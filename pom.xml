@@ -9,29 +9,29 @@
     <version>1.0.2</version>
   </parent>
 
-  <groupId>com.io7m.jmutnum</groupId>
-  <artifactId>com.io7m.jmutnum</artifactId>
+  <groupId>com.io7m.mutable.numbers</groupId>
+  <artifactId>com.io7m.mutable.numbers</artifactId>
   <version>0.0.1</version>
   <packaging>pom</packaging>
 
-  <name>com.io7m.jmutnum</name>
+  <name>com.io7m.mutable.numbers</name>
   <description>Mutable number types</description>
-  <url>http://github.com/io7m/jmutnum</url>
+  <url>http://github.com.io7m.mutable.numbers</url>
 
   <modules>
-    <module>com.io7m.jmutnum.core</module>
-    <module>com.io7m.jmutnum.tests</module>
-    <module>com.io7m.jmutnum.checkstyle</module>
-    <module>com.io7m.jmutnum.documentation</module>
+    <module>com.io7m.mutable.numbers.core</module>
+    <module>com.io7m.mutable.numbers.tests</module>
+    <module>com.io7m.mutable.numbers.checkstyle</module>
+    <module>com.io7m.mutable.numbers.documentation</module>
   </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <siteReposDirectory>com/io7m/jmutnum</siteReposDirectory>
-    <siteDocumentationDirectory>com/io7m/jmutnum/com.io7m.jmutnum.documentation</siteDocumentationDirectory>
-    <io7m.checkstyle.artifact>com.io7m.jmutnum.checkstyle</io7m.checkstyle.artifact>
-    <io7m.checkstyle.path>/com/io7m/jmutnum/checkstyle/checkstyle.xml</io7m.checkstyle.path>
+    <siteDocumentationDirectory>com/io7m/mutable/numbers/com.io7m.mutable.numbers.documentation</siteDocumentationDirectory>
+    <io7m.checkstyle.artifact>com.io7m.mutable.numbers.checkstyle</io7m.checkstyle.artifact>
+    <io7m.checkstyle.path>/com/io7m/mutable/numbers/checkstyle/checkstyle.xml</io7m.checkstyle.path>
     <io7m.api.previousVersion>0.0.1</io7m.api.previousVersion>
   </properties>
 
