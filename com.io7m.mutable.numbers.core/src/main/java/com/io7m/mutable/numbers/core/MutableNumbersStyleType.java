@@ -14,26 +14,32 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-package com.io7m.mutable.numbers;
+package com.io7m.mutable.numbers.core;
 
 import org.immutables.value.Value;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 /**
- * A mutable {@code char} value.
+ * Style settings for generated immutable types.
  */
 
-@MutableNumbersStyleType
-@Value.Modifiable
-public interface MutableCharacterType
+@Target({ElementType.PACKAGE, ElementType.TYPE})
+@Retention(RetentionPolicy.CLASS)
+@Value.Style(
+  get = {"is*", "get*"},
+  init = "set*",
+  typeAbstract = {"Abstract*", "*Type"},
+  typeImmutable = "*",
+  typeModifiable = "*",
+  builder = "builder",
+  build = "build",
+  visibility = Value.Style.ImplementationVisibility.PUBLIC,
+  defaults = @Value.Immutable(copy = false))
+public @interface MutableNumbersStyleType
 {
-  /**
-   * @return The current value
-   */
-
-  @Value.Parameter
-  @Value.Default
-  default char value()
-  {
-    return (char) 0;
-  }
+  // No value-level representation
 }

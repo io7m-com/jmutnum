@@ -14,26 +14,10 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-package com.io7m.mutable.numbers;
-
-import org.immutables.value.Value;
-
 /**
- * A mutable {@code long} value.
+ * Core types and functions.
  */
 
-@MutableNumbersStyleType
-@Value.Modifiable
-public interface MutableLongType
-{
-  /**
-   * @return The current value
-   */
+@com.io7m.jnull.NonNullByDefault
+package com.io7m.mutable.numbers.core;
 
-  @Value.Parameter
-  @Value.Default
-  default long value()
-  {
-    return 0L;
-  }
-}

@@ -14,17 +14,17 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-package com.io7m.mutable.numbers;
+package com.io7m.mutable.numbers.core;
 
 import org.immutables.value.Value;
 
 /**
- * A mutable {@code double} value.
+ * A mutable {@code long} value.
  */
 
 @MutableNumbersStyleType
 @Value.Modifiable
-public interface MutableDoubleType
+public interface MutableLongType
 {
   /**
    * @return The current value
@@ -32,8 +32,8 @@ public interface MutableDoubleType
 
   @Value.Parameter
   @Value.Default
-  default double value()
+  default long value()
   {
-    return 0.0;
+    return 0L;
   }
 }

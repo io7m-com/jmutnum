@@ -14,10 +14,26 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
+package com.io7m.mutable.numbers.core;
+
+import org.immutables.value.Value;
+
 /**
- * Core types and functions.
+ * A mutable {@code int} value.
  */
 
-@com.io7m.jnull.NonNullByDefault
-package com.io7m.mutable.numbers;
+@MutableNumbersStyleType
+@Value.Modifiable
+public interface MutableIntegerType
+{
+  /**
+   * @return The current value
+   */
 
+  @Value.Parameter
+  @Value.Default
+  default int value()
+  {
+    return 0;
+  }
+}
