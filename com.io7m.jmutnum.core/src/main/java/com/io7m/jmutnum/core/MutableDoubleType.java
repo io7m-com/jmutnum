@@ -31,5 +31,9 @@ public interface MutableDoubleType
    */
 
   @Value.Parameter
-  double value();
+  @Value.Default
+  default double value()
+  {
+    return 0.0;
+  }
 }

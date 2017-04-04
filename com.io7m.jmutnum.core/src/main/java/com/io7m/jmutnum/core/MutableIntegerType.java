@@ -31,5 +31,9 @@ public interface MutableIntegerType
    */
 
   @Value.Parameter
-  int value();
+  @Value.Default
+  default int value()
+  {
+    return 0;
+  }
 }

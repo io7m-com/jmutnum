@@ -31,5 +31,9 @@ public interface MutableFloatType
    */
 
   @Value.Parameter
-  float value();
+  @Value.Default
+  default float value()
+  {
+    return 0.0f;
+  }
 }

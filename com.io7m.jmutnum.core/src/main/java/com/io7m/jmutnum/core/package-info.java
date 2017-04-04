@@ -18,5 +18,6 @@
  * Core types and functions.
  */
 
-@com.io7m.jnull.NonNullByDefault package com.io7m.jmutnum.core;
+@com.io7m.jnull.NonNullByDefault
+package com.io7m.jmutnum.core;
 

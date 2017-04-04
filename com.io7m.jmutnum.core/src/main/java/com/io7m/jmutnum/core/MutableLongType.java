@@ -31,5 +31,9 @@ public interface MutableLongType
    */
 
   @Value.Parameter
-  long value();
+  @Value.Default
+  default long value()
+  {
+    return 0L;
+  }
 }

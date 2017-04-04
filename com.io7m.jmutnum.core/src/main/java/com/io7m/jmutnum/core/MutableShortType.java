@@ -31,5 +31,9 @@ public interface MutableShortType
    */
 
   @Value.Parameter
-  short value();
+  @Value.Default
+  default short value()
+  {
+    return (short) 0;
+  }
 }

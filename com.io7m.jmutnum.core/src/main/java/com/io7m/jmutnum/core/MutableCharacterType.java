@@ -31,5 +31,9 @@ public interface MutableCharacterType
    */
 
   @Value.Parameter
-  char value();
+  @Value.Default
+  default char value()
+  {
+    return (char) 0;
+  }
 }
