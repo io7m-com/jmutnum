@@ -11,7 +11,7 @@
 
   <groupId>com.io7m.mutable.numbers</groupId>
   <artifactId>com.io7m.mutable.numbers</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.mutable.numbers</name>
@@ -89,7 +89,7 @@
     <dependencies>
       <dependency>
         <groupId>com.io7m.jnull</groupId>
-        <artifactId>io7m-jnull-core</artifactId>
+        <artifactId>com.io7m.jnull.core</artifactId>
         <version>[1.0.0, 2.0.0)</version>
       </dependency>
 

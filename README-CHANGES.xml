@@ -3,6 +3,16 @@
   <c:project>com.io7m.mutable.numbers</c:project>
 
   <c:release c:ticket-system="com.github.io7m.jmutnum">
+    <c:date>2017-04-07</c:date>
+    <c:version>0.0.2</c:version>
+    <c:item>
+      <c:date>2017-04-07</c:date>
+      <c:type-code-change/>
+      <c:summary>Use new core io7m packages.</c:summary>
+    </c:item>
+  </c:release>
+
+  <c:release c:ticket-system="com.github.io7m.jmutnum">
     <c:date>2017-04-04</c:date>
     <c:version>0.0.1</c:version>
     <c:item>
