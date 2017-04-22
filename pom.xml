@@ -11,7 +11,7 @@
 
   <groupId>com.io7m.mutable.numbers</groupId>
   <artifactId>com.io7m.mutable.numbers</artifactId>
-  <version>0.0.2</version>
+  <version>1.0.0</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.mutable.numbers</name>
@@ -26,13 +26,11 @@
   </modules>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <siteReposDirectory>com/io7m/jmutnum</siteReposDirectory>
     <siteDocumentationDirectory>com/io7m/mutable/numbers/com.io7m.mutable.numbers.documentation</siteDocumentationDirectory>
     <io7m.checkstyle.artifact>com.io7m.mutable.numbers.checkstyle</io7m.checkstyle.artifact>
     <io7m.checkstyle.path>/com/io7m/mutable/numbers/checkstyle/checkstyle.xml</io7m.checkstyle.path>
-    <io7m.api.previousVersion>0.0.1</io7m.api.previousVersion>
+    <io7m.api.previousVersion>1.0.0</io7m.api.previousVersion>
   </properties>
 
   <inceptionYear>2017</inceptionYear>
