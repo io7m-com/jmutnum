@@ -1,10 +1,9 @@
 jmutnum
 ===
 
-[![Build Status](https://travis-ci.org/io7m/jmutnum.svg)](https://travis-ci.org/io7m/jmutnum)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.io7m.mutable.numbers/com.io7m.mutable.numbers/badge.png)](https://maven-badges.herokuapp.com/maven-central/com.io7m.mutable.numbers/com.io7m.mutable.numbers)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c5cbb92f221c4a31b3303d6b97e7629c)](https://www.codacy.com/app/github_79/jmutnum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=io7m/jmutnum&amp;utm_campaign=Badge_Grade)
-
-See https://io7m.github.io/jmutnum/ for more information.
+[![Travis](https://img.shields.io/travis/io7m/jmutnum.svg?style=flat-square)](https://travis-ci.org/io7m/jmutnum)
+[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.mutable.numbers%22)
+[![Codacy grade](https://img.shields.io/codacy/grade/c5cbb92f221c4a31b3303d6b97e7629c.svg?style=flat-square)](https://www.codacy.com/app/github_79/jmutnum)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m/jmutnum.svg?style=flat-square)](https://codecov.io/gh/io7m/jmutnum)
 
 ![jmutnum](./src/site/resources/jmutnum.jpg?raw=true)
