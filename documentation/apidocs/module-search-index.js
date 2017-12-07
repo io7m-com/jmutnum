@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"com.io7m.mutable.numbers.core"},{"l":"com.io7m.mutable.numbers.documentation"}]
