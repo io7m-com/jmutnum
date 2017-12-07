@@ -1,39 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<c:changelog xmlns:c="http://schemas.io7m.com/changelog/2.0.0">
-  <c:project>com.io7m.mutable.numbers</c:project>
-
-  <c:release c:ticket-system="com.github.io7m.jmutnum">
-    <c:date>2017-04-22</c:date>
-    <c:version>1.0.0</c:version>
-    <c:item>
-      <c:date>2017-04-22</c:date>
-      <c:type-code-new/>
-      <c:summary>First public API release.</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:release c:ticket-system="com.github.io7m.jmutnum">
-    <c:date>2017-04-07</c:date>
-    <c:version>0.0.2</c:version>
-    <c:item>
-      <c:date>2017-04-07</c:date>
-      <c:type-code-change/>
-      <c:summary>Use new core io7m packages.</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:release c:ticket-system="com.github.io7m.jmutnum">
-    <c:date>2017-04-04</c:date>
-    <c:version>0.0.1</c:version>
-    <c:item>
-      <c:date>2017-04-04</c:date>
-      <c:type-code-new/>
-      <c:summary>Initial release.</c:summary>
-    </c:item>
-  </c:release>
-
-  <c:ticket-system xml:id="com.github.io7m.jmutnum">
-    <c:ticket-url>https://github.com/io7m/jmutnum/issues/</c:ticket-url>
-  </c:ticket-system>
-
+<c:changelog xmlns:c="urn:com.io7m.changelog:4.0" project="com.io7m.mutable.numbers">
+   <c:releases>
+      <c:release date="2017-11-04T00:00:00+00:00"
+                 version="2.0.0"
+                 ticket-system="com.github.io7m.jmutnum">
+         <c:changes>
+            <c:change date="2017-11-04T00:00:00+00:00"
+                      summary="Require JDK 9 and publish a Java 9 module."
+                      compatible="false"/>
+            <c:change date="2017-11-04T00:00:00+00:00"
+                      summary="Remove com.io7m.jnull dependency."
+                      compatible="false"/>
+         </c:changes>
+      </c:release>
+      <c:release date="2017-04-22T00:00:00+00:00"
+                 version="1.0.0"
+                 ticket-system="com.github.io7m.jmutnum">
+         <c:changes>
+            <c:change date="2017-04-22T00:00:00+00:00" summary="First public API release."/>
+         </c:changes>
+      </c:release>
+      <c:release date="2017-04-07T00:00:00+00:00"
+                 version="0.0.2"
+                 ticket-system="com.github.io7m.jmutnum">
+         <c:changes>
+            <c:change date="2017-04-07T00:00:00+00:00"
+                      summary="Use new core io7m packages."
+                      compatible="false"/>
+         </c:changes>
+      </c:release>
+      <c:release date="2017-04-04T00:00:00+00:00"
+                 version="0.0.1"
+                 ticket-system="com.github.io7m.jmutnum">
+         <c:changes>
+            <c:change date="2017-04-04T00:00:00+00:00" summary="Initial release."/>
+         </c:changes>
+      </c:release>
+   </c:releases>
+   <c:ticket-systems>
+      <c:ticket-system id="com.github.io7m.jmutnum"
+                       url="https://github.com/io7m/jmutnum/issues/"/>
+   </c:ticket-systems>
 </c:changelog>

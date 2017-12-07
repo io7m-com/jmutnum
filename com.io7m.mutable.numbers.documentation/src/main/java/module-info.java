@@ -15,8 +15,12 @@
  */
 
 /**
- * Documentation.
+ * Documentation
  */
 
- package com.io7m.mutable.numbers.documentation;
+module com.io7m.mutable.numbers.documentation
+{
+  requires com.io7m.mutable.numbers.core;
 
+  exports com.io7m.mutable.numbers.documentation;
+}

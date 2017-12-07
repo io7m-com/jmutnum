@@ -15,8 +15,12 @@
  */
 
 /**
- * Documentation.
+ * Mutable number types (Core)
  */
 
- package com.io7m.mutable.numbers.documentation;
+module com.io7m.mutable.numbers.core
+{
+  requires static org.immutables.value;
 
+  exports com.io7m.mutable.numbers.core;
+}
