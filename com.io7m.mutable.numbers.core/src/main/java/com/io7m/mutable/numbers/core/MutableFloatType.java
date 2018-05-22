@@ -16,13 +16,14 @@
 
 package com.io7m.mutable.numbers.core;
 
+import com.io7m.immutables.styles.ImmutablesStyleType;
 import org.immutables.value.Value;
 
 /**
  * A mutable {@code float} value.
  */
 
-@MutableNumbersStyleType
+@ImmutablesStyleType
 @Value.Modifiable
 public interface MutableFloatType
 {

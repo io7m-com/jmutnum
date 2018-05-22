@@ -20,6 +20,9 @@
 
 module com.io7m.mutable.numbers.documentation
 {
+  requires static org.immutables.value;
+  requires static com.io7m.immutables.style;
+
   requires com.io7m.mutable.numbers.core;
 
   exports com.io7m.mutable.numbers.documentation;
