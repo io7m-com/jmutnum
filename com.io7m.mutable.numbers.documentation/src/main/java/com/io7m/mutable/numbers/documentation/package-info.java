@@ -18,5 +18,4 @@
  * Documentation.
  */
 
- package com.io7m.mutable.numbers.documentation;
-
+package com.io7m.mutable.numbers.documentation;

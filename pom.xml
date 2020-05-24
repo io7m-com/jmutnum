@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>3.1.0</version>
+    <version>5.0.0</version>
   </parent>
 
   <groupId>com.io7m.mutable.numbers</groupId>
@@ -91,7 +91,11 @@
         <artifactId>com.io7m.immutables.style</artifactId>
         <version>0.0.1</version>
       </dependency>
-
+      <dependency>
+        <groupId>com.io7m.primogenitor</groupId>
+        <artifactId>com.io7m.primogenitor.support</artifactId>
+        <version>5.0.0</version>
+      </dependency>
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
