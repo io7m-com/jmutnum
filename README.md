@@ -5,7 +5,7 @@ numbers
 [![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/com/io7m/numbers/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m/numbers.svg?style=flat-square)](https://codecov.io/gh/io7m/numbers)
 
-![numbers](./src/site/resources/numbers.jpg?raw=true)
+![numbers](./src/site/resources/jmutnum.jpg?raw=true)
 
 | JVM             | Platform | Status |
 |-----------------|----------|--------|
