@@ -9,7 +9,7 @@
   <parent>
     <groupId>com.io7m.mutable.numbers</groupId>
     <artifactId>com.io7m.mutable.numbers</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>com.io7m.mutable.numbers.documentation</artifactId>
