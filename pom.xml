@@ -16,7 +16,7 @@
 
   <name>com.io7m.mutable.numbers</name>
   <description>Mutable number types</description>
-  <url>http://github.com.io7m.mutable.numbers</url>
+  <url>https://www.io7m.com/software/jmutnum</url>
 
   <modules>
     <module>com.io7m.mutable.numbers.core</module>
