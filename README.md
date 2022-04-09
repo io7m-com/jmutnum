@@ -1,4 +1,4 @@
-numbers
+jmutnum
 ===
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.mutable.numbers%22)
