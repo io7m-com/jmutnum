@@ -22,9 +22,15 @@
         <c:change date="2017-04-04T00:00:00+00:00" summary="Initial release."/>
       </c:changes>
     </c:release>
-    <c:release date="2022-04-09T15:15:13+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="3.0.0">
+    <c:release date="2022-04-09T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="3.0.0">
       <c:changes>
         <c:change compatible="false" date="2022-04-09T00:00:00+00:00" summary="Require JDK 17"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2022-04-10T14:45:42+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="4.0.0">
+      <c:changes>
+        <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Fix an issue where generated classes were not included in the produced jar files."/>
+        <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Require JDK 17"/>
       </c:changes>
     </c:release>
   </c:releases>
