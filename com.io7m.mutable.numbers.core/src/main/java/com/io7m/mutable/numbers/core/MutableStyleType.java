@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017 Mark Raynsford <code@io7m.com> https://www.io7m.com
+ * Copyright © 2022 Mark Raynsford <code@io7m.com> https://www.io7m.com
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -14,26 +14,34 @@
  * IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
+
 package com.io7m.mutable.numbers.core;
 
 import org.immutables.value.Value;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
 /**
- * A mutable {@code double} value.
+ * The style for the package.
  */
 
-@MutableStyleType
-@Value.Modifiable
-public interface MutableDoubleType
+@Target({ElementType.PACKAGE, ElementType.TYPE})
+@Retention(RetentionPolicy.CLASS)
+@Value.Style(
+  get = {"is*", "get*"},
+  init = "set*",
+  typeAbstract = {"Abstract*", "*Type"},
+  typeImmutable = "*",
+  typeModifiable = "*",
+  builder = "builder",
+  build = "build",
+  allowedClasspathAnnotations = Override.class,
+  visibility = Value.Style.ImplementationVisibility.PUBLIC,
+  defaults = @Value.Immutable(copy = true))
+public @interface MutableStyleType
 {
-  /**
-   * @return The current value
-   */
 
-  @Value.Parameter
-  @Value.Default
-  default double value()
-  {
-    return 0.0;
-  }
 }

@@ -19,7 +19,7 @@
  */
 
 @Export
-@Version("3.0.0")
+@Version("4.0.0")
 package com.io7m.mutable.numbers.core;
 
 import org.osgi.annotation.bundle.Export;
