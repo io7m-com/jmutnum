@@ -14,7 +14,7 @@
 
   <groupId>com.io7m.mutable.numbers</groupId>
   <artifactId>com.io7m.mutable.numbers</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.mutable.numbers</name>
@@ -29,7 +29,7 @@
 
   <properties>
     <io7m.api.previousVersion>3.0.0</io7m.api.previousVersion>
-    <io7m.org.immutables.version>2.8.8</io7m.org.immutables.version>
+    <io7m.org.immutables.version>2.9.0</io7m.org.immutables.version>
   </properties>
 
   <inceptionYear>2017</inceptionYear>
