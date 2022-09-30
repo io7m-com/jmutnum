@@ -2,7 +2,7 @@ jmutnum
 ===
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.mutable.numbers%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/com/io7m/numbers/)
+[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/s01.oss.sonatype.org/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/numbers/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m/jmutnum.svg?style=flat-square)](https://codecov.io/gh/io7m/jmutnum)
 
 ![numbers](./src/site/resources/jmutnum.jpg?raw=true)
