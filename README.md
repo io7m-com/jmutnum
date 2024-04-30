@@ -1,15 +1,15 @@
-mutable.numbers
+mutable_numbers
 ===
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.mutable.numbers/com.io7m.mutable.numbers.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.mutable.numbers%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.mutable.numbers/com.io7m.mutable.numbers?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/mutable/numbers/)
-[![Codecov](https://img.shields.io/codecov/c/github/io7m/mutable.numbers.svg?style=flat-square)](https://codecov.io/gh/io7m/mutable.numbers)
+[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.mutable_numbers/com.io7m.mutable_numbers.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.mutable_numbers%22)
+[![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.mutable_numbers/com.io7m.mutable_numbers?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/mutable_numbers/)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m-com/mutable_numbers.svg?style=flat-square)](https://codecov.io/gh/io7m-com/mutable_numbers)
 
-![com.io7m.mutable.numbers](./src/site/resources/mutable.numbers.jpg?raw=true)
+![com.io7m.mutable_numbers](./src/site/resources/mutable_numbers.jpg?raw=true)
 
 | JVM | Platform | Status |
 |-----|----------|--------|
-| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m/mutable.numbers/main.linux.temurin.current.yml)](https://github.com/io7m/mutable.numbers/actions?query=workflow%3Amain.linux.temurin.current)|
-| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m/mutable.numbers/main.linux.temurin.lts.yml)](https://github.com/io7m/mutable.numbers/actions?query=workflow%3Amain.linux.temurin.lts)|
-| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m/mutable.numbers/main.windows.temurin.current.yml)](https://github.com/io7m/mutable.numbers/actions?query=workflow%3Amain.windows.temurin.current)|
-| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m/mutable.numbers/main.windows.temurin.lts.yml)](https://github.com/io7m/mutable.numbers/actions?query=workflow%3Amain.windows.temurin.lts)|
+| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/mutable_numbers/main.linux.temurin.current.yml)](https://www.github.com/io7m-com/mutable_numbers/actions?query=workflow%3Amain.linux.temurin.current)|
+| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/mutable_numbers/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/mutable_numbers/actions?query=workflow%3Amain.linux.temurin.lts)|
+| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/mutable_numbers/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/mutable_numbers/actions?query=workflow%3Amain.windows.temurin.current)|
+| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/mutable_numbers/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/mutable_numbers/actions?query=workflow%3Amain.windows.temurin.lts)|

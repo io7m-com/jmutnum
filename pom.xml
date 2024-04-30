@@ -12,19 +12,19 @@
     <version>8.2.0</version>
   </parent>
 
-  <groupId>com.io7m.mutable.numbers</groupId>
-  <artifactId>com.io7m.mutable.numbers</artifactId>
+  <groupId>com.io7m.mutable_numbers</groupId>
+  <artifactId>com.io7m.mutable_numbers</artifactId>
   <version>4.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>com.io7m.mutable.numbers</name>
+  <name>com.io7m.mutable_numbers</name>
   <description>Mutable number types</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
   <modules>
-    <module>com.io7m.mutable.numbers.core</module>
-    <module>com.io7m.mutable.numbers.tests</module>
-    <module>com.io7m.mutable.numbers.documentation</module>
+    <module>com.io7m.mutable_numbers.core</module>
+    <module>com.io7m.mutable_numbers.tests</module>
+    <module>com.io7m.mutable_numbers.documentation</module>
   </modules>
 
   <properties>
@@ -43,9 +43,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/jmutnum</url>
-    <connection>scm:git:https://github.com/io7m/jmutnum</connection>
-    <developerConnection>scm:git:https://github.com/io7m/jmutnum</developerConnection>
+    <url>https://www.github.com/io7m-com/jmutnum</url>
+    <connection>scm:git:https://www.github.com/io7m-com/jmutnum</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/jmutnum</developerConnection>
   </scm>
 
   <developers>
@@ -58,7 +58,7 @@
   </developers>
 
   <issueManagement>
-    <url>http://github.com/io7m/jmutnum/issues</url>
+    <url>http://www.github.com/io7m-com/jmutnum/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 

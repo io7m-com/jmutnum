@@ -23,4 +23,4 @@ jobs:
         if: always()
         with:
           name: test-logs
-          path: ./com.io7m.mutable.numbers.tests/target/surefire-reports
+          path: ./com.io7m.mutable_numbers.tests/target/surefire-reports

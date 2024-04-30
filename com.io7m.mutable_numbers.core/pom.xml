@@ -7,15 +7,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.io7m.mutable.numbers</groupId>
-    <artifactId>com.io7m.mutable.numbers</artifactId>
+    <groupId>com.io7m.mutable_numbers</groupId>
+    <artifactId>com.io7m.mutable_numbers</artifactId>
     <version>4.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>com.io7m.mutable.numbers.core</artifactId>
+  <artifactId>com.io7m.mutable_numbers.core</artifactId>
   <packaging>jar</packaging>
 
-  <name>com.io7m.mutable.numbers.core</name>
+  <name>com.io7m.mutable_numbers.core</name>
   <description>Mutable number types (Core)</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
