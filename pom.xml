@@ -12,19 +12,19 @@
     <version>8.2.0</version>
   </parent>
 
-  <groupId>com.io7m.mutable_numbers</groupId>
-  <artifactId>com.io7m.mutable_numbers</artifactId>
+  <groupId>com.io7m.jmutnum</groupId>
+  <artifactId>com.io7m.jmutnum</artifactId>
   <version>4.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>com.io7m.mutable_numbers</name>
+  <name>com.io7m.jmutnum</name>
   <description>Mutable number types</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
   <modules>
-    <module>com.io7m.mutable_numbers.core</module>
-    <module>com.io7m.mutable_numbers.tests</module>
-    <module>com.io7m.mutable_numbers.documentation</module>
+    <module>com.io7m.jmutnum.core</module>
+    <module>com.io7m.jmutnum.tests</module>
+    <module>com.io7m.jmutnum.documentation</module>
   </modules>
 
   <properties>

@@ -8,15 +8,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.io7m.mutable_numbers</groupId>
-    <artifactId>com.io7m.mutable_numbers</artifactId>
+    <groupId>com.io7m.jmutnum</groupId>
+    <artifactId>com.io7m.jmutnum</artifactId>
     <version>4.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>com.io7m.mutable_numbers.tests</artifactId>
+  <artifactId>com.io7m.jmutnum.tests</artifactId>
   <packaging>jar</packaging>
 
-  <name>com.io7m.mutable_numbers.tests</name>
+  <name>com.io7m.jmutnum.tests</name>
   <description>Mutable number types (Test suite)</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
@@ -29,7 +29,7 @@
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>com.io7m.mutable_numbers.core</artifactId>
+      <artifactId>com.io7m.jmutnum.core</artifactId>
       <version>${project.version}</version>
     </dependency>
 
