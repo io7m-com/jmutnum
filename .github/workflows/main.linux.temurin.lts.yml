@@ -23,9 +23,9 @@ jobs:
         if: always()
         with:
           name: test-logs
-          path: ./com.io7m.mutable_numbers.tests/target/surefire-reports
+          path: ./com.io7m.jmutnum.tests/target/surefire-reports
       - name: Coverage
-        uses: codecov/codecov-action@v4.3.0
+        uses: codecov/codecov-action@v4.3.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          file: com.io7m.mutable_numbers.tests/target/site/jacoco-aggregate/jacoco.xml
+          file: com.io7m.jmutnum.tests/target/site/jacoco-aggregate/jacoco.xml
