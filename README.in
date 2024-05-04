@@ -1,0 +1,24 @@
+
+## jmutnum
+
+The `jmutnum` package provides trivial mutable boxed integer types.
+
+## Features
+
+* Mutable boxed integer types.
+* Written in pure Java 21.
+* High coverage test suite.
+* [OSGi-ready](https://www.osgi.org/)
+* [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
+* ISC license.
+
+## Usage
+
+The package exposes the following mutable boxed integer types:
+
+* `MutableCharacterType`
+* `MutableDoubleType`
+* `MutableFloatType`
+* `MutableIntegerType`
+* `MutableLongType`
+* `MutableShortType`

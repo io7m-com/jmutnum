@@ -13,3 +13,28 @@ jmutnum
 | OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/jmutnum/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/jmutnum/actions?query=workflow%3Amain.linux.temurin.lts)|
 | OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/jmutnum/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/jmutnum/actions?query=workflow%3Amain.windows.temurin.current)|
 | OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/jmutnum/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/jmutnum/actions?query=workflow%3Amain.windows.temurin.lts)|
+
+## jmutnum
+
+The `jmutnum` package provides trivial mutable boxed integer types.
+
+## Features
+
+* Mutable boxed integer types.
+* Written in pure Java 21.
+* High coverage test suite.
+* [OSGi-ready](https://www.osgi.org/)
+* [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
+* ISC license.
+
+## Usage
+
+The package exposes the following mutable boxed integer types:
+
+* `MutableCharacterType`
+* `MutableDoubleType`
+* `MutableFloatType`
+* `MutableIntegerType`
+* `MutableLongType`
+* `MutableShortType`
+

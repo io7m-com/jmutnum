@@ -15,7 +15,7 @@
   </p>
 
   <p>
-    The <tt>com.io7m.mutable.numbers</tt> package provides trivial mutable boxed integer types.
+    The <tt>jmutnum</tt> package provides trivial mutable boxed integer types.
   </p>
 
 </div>
