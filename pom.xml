@@ -14,7 +14,7 @@
 
   <groupId>com.io7m.jmutnum</groupId>
   <artifactId>com.io7m.jmutnum</artifactId>
-  <version>4.0.1</version>
+  <version>4.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>com.io7m.jmutnum</name>
@@ -28,7 +28,7 @@
 
   <properties>
     <!-- Configuration -->
-    <io7m.api.previousVersion>4.0.0</io7m.api.previousVersion>
+    <io7m.api.previousVersion>4.0.1</io7m.api.previousVersion>
     <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
     <io7m.org.immutables.version>2.10.1</io7m.org.immutables.version>
   </properties>

@@ -9,7 +9,7 @@
   <parent>
     <groupId>com.io7m.jmutnum</groupId>
     <artifactId>com.io7m.jmutnum</artifactId>
-    <version>4.0.1</version>
+    <version>4.1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>com.io7m.jmutnum.core</artifactId>
