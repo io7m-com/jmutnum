@@ -9,42 +9,43 @@
   <parent>
     <groupId>com.io7m.primogenitor</groupId>
     <artifactId>com.io7m.primogenitor.full</artifactId>
-    <version>7.0.0</version>
+    <version>8.2.0</version>
   </parent>
 
-  <groupId>com.io7m.mutable.numbers</groupId>
-  <artifactId>com.io7m.mutable.numbers</artifactId>
-  <version>4.0.0</version>
+  <groupId>com.io7m.jmutnum</groupId>
+  <artifactId>com.io7m.jmutnum</artifactId>
+  <version>4.0.1</version>
   <packaging>pom</packaging>
 
-  <name>com.io7m.mutable.numbers</name>
+  <name>com.io7m.jmutnum</name>
   <description>Mutable number types</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
   <modules>
-    <module>com.io7m.mutable.numbers.core</module>
-    <module>com.io7m.mutable.numbers.tests</module>
-    <module>com.io7m.mutable.numbers.documentation</module>
+    <module>com.io7m.jmutnum.core</module>
+    <module>com.io7m.jmutnum.tests</module>
   </modules>
 
   <properties>
-    <io7m.api.previousVersion>3.0.0</io7m.api.previousVersion>
-    <io7m.org.immutables.version>2.9.0</io7m.org.immutables.version>
+    <!-- Configuration -->
+    <io7m.api.previousVersion>4.0.0</io7m.api.previousVersion>
+    <io7m.java.targetJavaVersion>17</io7m.java.targetJavaVersion>
+    <io7m.org.immutables.version>2.10.1</io7m.org.immutables.version>
   </properties>
 
   <inceptionYear>2017</inceptionYear>
 
   <licenses>
     <license>
-      <name>ISC License</name>
+      <name>ISC</name>
       <url>https://www.io7m.com/license/isc.txt</url>
     </license>
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/jmutnum</url>
-    <connection>scm:git:https://github.com/io7m/jmutnum</connection>
-    <developerConnection>scm:git:https://github.com/io7m/jmutnum</developerConnection>
+    <url>https://www.github.com/io7m-com/jmutnum</url>
+    <connection>scm:git:https://www.github.com/io7m-com/jmutnum</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/jmutnum</developerConnection>
   </scm>
 
   <developers>
@@ -57,7 +58,7 @@
   </developers>
 
   <issueManagement>
-    <url>http://github.com/io7m/jmutnum/issues</url>
+    <url>http://www.github.com/io7m-com/jmutnum/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -69,13 +70,17 @@
     </site>
     <repository>
       <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/jmutnum/actions</url>
+    <url>https://www.github.com/io7m-com/jmutnum/actions</url>
   </ciManagement>
 
   <prerequisites>
@@ -90,11 +95,6 @@
         <version>${io7m.org.immutables.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.io7m.immutables.style</groupId>
-        <artifactId>com.io7m.immutables.style</artifactId>
-        <version>0.0.1</version>
-      </dependency>
-      <dependency>
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.annotation.versioning</artifactId>
         <version>1.1.2</version>
@@ -107,17 +107,17 @@
       <dependency>
         <groupId>com.io7m.primogenitor</groupId>
         <artifactId>com.io7m.primogenitor.support</artifactId>
-        <version>7.0.0</version>
+        <version>8.2.0</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.8.2</version>
+        <version>5.10.2</version>
       </dependency>
       <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.8.2</version>
+        <version>5.10.2</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
@@ -138,13 +138,6 @@
               </dependency>
             </annotationProcessorPaths>
           </configuration>
-        </plugin>
-
-        <!-- kstructural plugin for generating documentation -->
-        <plugin>
-          <groupId>com.io7m.kstructural</groupId>
-          <artifactId>io7m-kstructural-maven-plugin</artifactId>
-          <version>0.3.1</version>
         </plugin>
 
         <!-- Spot bugs -->

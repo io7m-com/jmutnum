@@ -8,26 +8,28 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.io7m.mutable.numbers</groupId>
-    <artifactId>com.io7m.mutable.numbers</artifactId>
-    <version>4.0.0</version>
+    <groupId>com.io7m.jmutnum</groupId>
+    <artifactId>com.io7m.jmutnum</artifactId>
+    <version>4.0.1</version>
   </parent>
 
-  <artifactId>com.io7m.mutable.numbers.tests</artifactId>
+  <artifactId>com.io7m.jmutnum.tests</artifactId>
   <packaging>jar</packaging>
 
-  <name>com.io7m.mutable.numbers.tests</name>
+  <name>com.io7m.jmutnum.tests</name>
   <description>Mutable number types (Test suite)</description>
   <url>https://www.io7m.com/software/jmutnum</url>
 
   <properties>
+    <spotbugs.skip>true</spotbugs.skip>
     <mdep.analyze.skip>true</mdep.analyze.skip>
+    <checkstyle.skip>true</checkstyle.skip>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>com.io7m.mutable.numbers.core</artifactId>
+      <artifactId>com.io7m.jmutnum.core</artifactId>
       <version>${project.version}</version>
     </dependency>
 
