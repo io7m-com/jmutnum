@@ -22,7 +22,7 @@ The `jmutnum` package provides trivial mutable boxed integer types.
 ## Features
 
 * Mutable boxed integer types.
-* Written in pure Java 21.
+* Written in pure Java 17.
 * High coverage test suite.
 * [OSGi-ready](https://www.osgi.org/)
 * [JPMS-ready](https://en.wikipedia.org/wiki/Java_Platform_Module_System)
