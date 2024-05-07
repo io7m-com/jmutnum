@@ -4,7 +4,7 @@ jmutnum
 [![Maven Central](https://img.shields.io/maven-central/v/com.io7m.jmutnum/com.io7m.jmutnum.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.jmutnum%22)
 [![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.jmutnum/com.io7m.jmutnum?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/jmutnum/)
 [![Codecov](https://img.shields.io/codecov/c/github/io7m-com/jmutnum.svg?style=flat-square)](https://codecov.io/gh/io7m-com/jmutnum)
-![Java Version](https://img.shields.io/badge/21-java?label=java&color=007fff)
+![Java Version](https://img.shields.io/badge/21-java?label=java&color=e6c35c)
 
 ![com.io7m.jmutnum](./src/site/resources/jmutnum.jpg?raw=true)
 
