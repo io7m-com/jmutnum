@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <c:changelog project="com.io7m.mutable.numbers" xmlns:c="urn:com.io7m.changelog:4.0">
   <c:releases>
-    <c:release date="2017-11-04T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="2.0.0">
+    <c:release date="2017-04-04T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="0.0.1">
       <c:changes>
-        <c:change compatible="false" date="2017-11-04T00:00:00+00:00" summary="Require JDK 9 and publish a Java 9 module."/>
-        <c:change compatible="false" date="2017-11-04T00:00:00+00:00" summary="Remove com.io7m.jnull dependency."/>
-      </c:changes>
-    </c:release>
-    <c:release date="2017-04-22T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="1.0.0">
-      <c:changes>
-        <c:change date="2017-04-22T00:00:00+00:00" summary="First public API release."/>
+        <c:change date="2017-04-04T00:00:00+00:00" summary="Initial release."/>
       </c:changes>
     </c:release>
     <c:release date="2017-04-07T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="0.0.2">
@@ -17,9 +11,15 @@
         <c:change compatible="false" date="2017-04-07T00:00:00+00:00" summary="Use new core io7m packages."/>
       </c:changes>
     </c:release>
-    <c:release date="2017-04-04T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="0.0.1">
+    <c:release date="2017-04-22T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="1.0.0">
       <c:changes>
-        <c:change date="2017-04-04T00:00:00+00:00" summary="Initial release."/>
+        <c:change date="2017-04-22T00:00:00+00:00" summary="First public API release."/>
+      </c:changes>
+    </c:release>
+    <c:release date="2017-11-04T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="2.0.0">
+      <c:changes>
+        <c:change compatible="false" date="2017-11-04T00:00:00+00:00" summary="Require JDK 9 and publish a Java 9 module."/>
+        <c:change compatible="false" date="2017-11-04T00:00:00+00:00" summary="Remove com.io7m.jnull dependency."/>
       </c:changes>
     </c:release>
     <c:release date="2022-04-09T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="3.0.0">
@@ -27,10 +27,15 @@
         <c:change compatible="false" date="2022-04-09T00:00:00+00:00" summary="Require JDK 17"/>
       </c:changes>
     </c:release>
-    <c:release date="2022-04-10T14:45:42+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="4.0.0">
+    <c:release date="2022-04-10T00:00:00+00:00" is-open="false" ticket-system="com.github.io7m.jmutnum" version="4.0.0">
       <c:changes>
         <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Fix an issue where generated classes were not included in the produced jar files."/>
         <c:change compatible="false" date="2022-04-10T00:00:00+00:00" summary="Require JDK 17"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2024-05-07T18:30:07+00:00" is-open="true" ticket-system="com.github.io7m.jmutnum" version="4.0.1">
+      <c:changes>
+        <c:change date="2024-05-07T18:30:07+00:00" summary="Move to new organization."/>
       </c:changes>
     </c:release>
   </c:releases>
